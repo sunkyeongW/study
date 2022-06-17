@@ -1,0 +1,45 @@
+#기본 출력
+print('python start!')
+print("python start!")
+print('''python start!''')
+print("""python start!""")
+print()
+#separator option
+print('P','Y','T','H','O','N', sep='')
+print()
+#end option
+print('end option', end=' ')
+print('is good', end=' ')
+print()
+#file option
+import sys
+print('hello python', file=sys.stdout)
+print()
+#format 사용(d,s,f)
+print('%s %s' % ('one','two'))
+print('{} {}' .format('one','two'))
+print('{1} {0}' .format('one','two'))
+print()
+# %s
+print('%10s' % ('good'))
+print('{:>10s}' .format('good'))
+print()
+print('%-10s' % ('good'))
+print('{:10s}' .format('good'))
+print()
+print('{:+>10}' .format('good'))
+print('{:^10}' .format('good'))
+print()
+print('%.7s' % ('good'))
+print('%.6s' % ('goodboy'))
+print()
+# %d
+print('%d %d' % (3,5))
+print('{} {}'.format(3,5))
+print()
+print('%4d' % (42))
+print('{:4d}' .format(42))
+print()
+# %f
+print('%3.2f' % (3.45354))
+print('{:f}' .format(3.45354))
